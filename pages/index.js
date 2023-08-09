@@ -18,7 +18,6 @@ export default function Home() {
         <meta name="description" content="Reece Jones' portfolio website"/>
         <link rel="icon" href="/assets/images/favicon.ico"/>
       </Head>
-      <Navbar/>
       <Main/>
       <About/>
       <Skills/>

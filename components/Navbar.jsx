@@ -22,19 +22,19 @@ const Navbar = () => {
         
         <div>
             <ul className='hidden md:flex'>
-                <Link href='#home'>
+                <Link href='/#home'>
                     <li className='ml-10 text-sm uppercase hover:border-b border-[#00a3d9]'>Home</li>
                 </Link>
-                <Link href='#about'>
+                <Link href='/#about'>
                     <li className='ml-10 text-sm uppercase hover:border-b border-[#00a3d9]'>About</li>
                 </Link>
-                <Link href='#skills'>
+                <Link href='/#skills'>
                     <li className='ml-10 text-sm uppercase hover:border-b border-[#00a3d9]'>Skills</li>
                 </Link>
-                <Link href='#projects'>
+                <Link href='/#projects'>
                     <li className='ml-10 text-sm uppercase hover:border-b border-[#00a3d9]'>Games Portfolio</li>
                 </Link>
-                <Link href='#graphics'>
+                <Link href='/#graphics'>
                     <li className='ml-10 text-sm uppercase hover:border-b border-[#00a3d9]'>Graphic Design</li>
                 </Link>
             </ul>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
             <div className={nav ? ' fixed right-0 top-0 w-[384px] sm:w-[60%] md:w-[576px] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' :
-            'fixed right-[-100%] top-0 w-[384px] sm:w-[60%] md:w-[576px] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' }>
+            'fixed right-[-110%] top-0 w-[384px] sm:w-[60%] md:w-[576px] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' }>
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Image src="/../assets/images/cglogo512.png" width={50} height={50} alt="/"/>
@@ -57,19 +57,19 @@ const Navbar = () => {
                 </div>
                 <div className='py-4 flex flex-col '>
                     <ul className='uppercase'>
-                    <Link href='#home'>
+                    <Link href='/#home'>
                         <li className='py-4 text-sm border-b border-[#00a3d9]'>Home</li>
                         </Link>
-                        <Link href='#about'>
+                        <Link href='/#about'>
                         <li className='py-4 text-sm border-b border-[#00a3d9]'>About</li>
                         </Link>
-                        <Link href='#skills'>
+                        <Link href='/#skills'>
                         <li className='py-4 text-sm border-b border-[#00a3d9]'>Skills</li>
                         </Link>
-                        <Link href='#projects'>
+                        <Link href='/#projects'>
                         <li className='py-4 text-sm border-b border-[#00a3d9]'>Games Portfolio</li>
                         </Link>
-                        <Link href='#graphics'>
+                        <Link href='/#graphics'>
                         <li className='py-4 text-sm border-b border-[#00a3d9]'>Graphic Design</li>
                         </Link>
                     </ul>
@@ -79,13 +79,19 @@ const Navbar = () => {
                         </p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-[#00a3d9] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaLinkedinIn/>
+                            <Link href="https://www.linkedin.com/in/reeceajones/">
+                            <FaLinkedinIn/>
+                            </Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-[#00a3d9] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaGithub/>
+                            <Link href="https://github.com/PsychOXRat">
+                            <FaGithub/>
+                            </Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-[#00a3d9] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <AiOutlineMail/>
+                            <Link href="mailto:jonesreecea@gmail.com">
+                            <AiOutlineMail/>
+                            </Link>
                             </div>
                         </div>
                     </div>

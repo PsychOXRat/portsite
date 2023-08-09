@@ -1,5 +1,6 @@
 import React from "react"
 import Image from 'next/image'
+import unrealImg from "../public/assets/images/CrumpleZone.jpg"
 
 const Skills = () => {
   return (
@@ -42,7 +43,7 @@ const Skills = () => {
                 <div className="p-6 bg-[#bbbbbb] shadow-xl shadow-[#00a3d9] rounded-xl hover:scale-105 ease-in duration-300">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                        <   Image src="/../assets/images/physx.png" height={64} width={181} alt="/"/>
+                        <   Image src="/../assets/images/PhysX.png" height={64} width={181} alt="/"/>
                         </div>
                         <div className="flex flex-col items-center justify-center">
                             <h3 className="text-xl">PhysX</h3>
@@ -52,7 +53,7 @@ const Skills = () => {
                 <div className="p-6 bg-[#bbbbbb] shadow-xl shadow-[#00a3d9] rounded-xl hover:scale-105 ease-in duration-300">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                        <   Image src="/../assets/images/unity.png" height={64} width={64} alt="/"/>
+                        <   Image src="/../assets/images/Unity.png" height={64} width={64} alt="/"/>
                         </div>
                         <div className="flex flex-col items-center justify-center">
                             <h3 className="text-xl">Unity</h3>
@@ -62,10 +63,10 @@ const Skills = () => {
                 <div className="p-6 bg-[#bbbbbb] shadow-xl shadow-[#00a3d9] rounded-xl hover:scale-105 ease-in duration-300">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                        <   Image src="/../assets/images/unreal.png" height={64} width={64} alt="/"/>
+                        <   Image src="/../assets/images/Unreal.png" height={64} width={64} alt="/"/>
                         </div>
-                        <div className="flex flex-col items-center justify-center">
-                            <h3 className="text-xl">Unreal Engine 4/5</h3>
+                        <div className="flex flex-col items-center justify-center ">
+                            <h3 className="text-xl text-center">Unreal Engine 4/5</h3>
                         </div>
                     </div>    
                 </div>

@@ -54,7 +54,7 @@ a.anchorgr {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#bbbbbb] to-[#00a3d9]
+    @apply shadow-xl shadow-[#00a3d9] rounded-xl uppercase tracking-widest font-bold  text-white uppercase bg-gradient-to-r from-[#1d6581] to-[#00a3d9]
   }
 
 }

@@ -20,7 +20,7 @@ const About = () => {
                 <p className="py-2">
                     With this being done at the same time I was doing my GCSEs and A-Levels, I decided to continue my path and applied to study Games Computing at the University of Lincoln. I learnt many skills during my time there, solidifying my passion for games and their development in the process, as well as taking part in game jams and becoming the vice president of the Computer Science Society in my final year.
                 </p>
-                <p>Check out some of my <Link className="underline text-[#00a3d9]" href="/">projects here</Link>, and my <Link className="underline text-[#00a3d9]" href="/">graphic design here</Link>.</p>
+                <p>Check out some of my <Link className="underline text-[#00a3d9]" href="/#projects">projects here</Link>, and my <Link className="underline text-[#00a3d9]" href="/#graphics">graphic design here</Link>.</p>
             </div>
             <div className="w-full h-auto m-auto shadow-xl bg-[#bbbbbb] shadow-[#00a3d9] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
                 <img className="rounded-xl" src="../assets/images/CodingScreen.png" alt=""/>

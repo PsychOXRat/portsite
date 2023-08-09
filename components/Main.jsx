@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa'
-import {} from 'react-icons/bs'
+import Link from 'next/link'
 
 const Main = () => {
   return (
@@ -19,13 +19,19 @@ const Main = () => {
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <Link href="https://www.linkedin.com/in/reeceajones/">
                             <FaLinkedinIn/>
+                            </Link>
                         </div>
                         <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <Link href="https://github.com/PsychOXRat">
                             <FaGithub/>
+                            </Link>
                         </div>
                         <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <Link href="mailto:jonesreecea@gmail.com">
                             <AiOutlineMail/>
+                            </Link>
                         </div>
                     </div>
             </div>
