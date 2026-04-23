@@ -15,24 +15,24 @@ const Main = () => {
                     A Games Computing Graduate
                     </h1>
                     <p className='py-4 max-w-[70%] m-auto'>
-                        I'm a games computing graduate looking for a software development company to begin my professional coding career with and expand upon my skillset. I specialise in game development, although I want to push out of my comfort zone and into the varied world of software development.
+                        I'm a games computing graduate with minimal professional experience looking to expand upon my skillset. I specialise in game development, although I want to push out of my comfort zone and into the varied world of software development and learn more about backend development and creating intuitive frontend experiences.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <Link href="https://www.linkedin.com/in/reeceajones/">
+                        <Link href="https://www.linkedin.com/in/reeceajones/">
+                            <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaLinkedinIn/>
-                            </Link>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            </div>
+                        </Link>
                         <Link href="https://github.com/PsychOXRat">
-                            <FaGithub/>
-                            </Link>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>                                
+                                <FaGithub/>
+                            </div>
+                        </Link>
                         <Link href="mailto:jonesreecea@gmail.com">
+                        <div className='rounded-full shadow-lg shadow-[#00a3d9] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineMail/>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                     </div>
             </div>
         </div>
