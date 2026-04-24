@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "next/legacy/image";
+import Image from "next/image";
 import crumpleImg from "../public/assets/images/Project.png"
 import {BsArrowLeft} from 'react-icons/bs'
 import YoutubeEmbed from "@/components/YoutubeEmbed";
@@ -8,15 +8,22 @@ import Link from "next/link";
 const dissertation = () => {
   return (
     <div className="w-full">
-        <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-            <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10"/>
-            <Image className="absolute z-1" layout='fill' objectFit="cover" src={crumpleImg} alt='/' />
-            <div className="absolute top-[85%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-              <h2 className="py-2">Dissertation Project Artefact</h2>
-              <h3>Unreal Engine 4</h3>
-            </div>
-        </div>
-        
+      <div className="w-screen h-[30vh] lg:h-[40vh] relative">
+          <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10"/>
+          <Image
+            className="absolute z-1"
+            src={crumpleImg}
+            alt='/'
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover"
+            }} />
+          <div className="absolute top-[85%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+            <h2 className="py-2">Dissertation Project Artefact</h2>
+            <h3>Unreal Engine 4</h3>
+          </div>
+      </div>
       <div className="max-w-[1240px] mx-auto p-2 grid grid-cols-1 md:grid-cols-5 gap-8 pt-8">
         <div className="md:col-span-3">
           <p className="text-xl tracking-widest uppercase text-[#00a3d9]">Project</p>
@@ -43,7 +50,6 @@ const dissertation = () => {
         </div>
 
       </div>
-      
       <div className="flex justify-center max-w-[1240px] pt-6 pb-4 mx-auto">
       <Link href='/#projects' alt='Back'>
       <div className='rounded-full shadow-lg shadow-[#00a3d9] p-3 cursor-pointer hover:scale-105 ease-in duration-300 items-center'>
@@ -51,8 +57,7 @@ const dissertation = () => {
                         </div>
       </Link>
       </div>
-
-        </div>
+    </div>
   );
 };
 export default dissertation;
