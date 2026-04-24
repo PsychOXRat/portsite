@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa'
 import {} from 'react-icons/bs'

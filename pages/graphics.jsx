@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "next/image";
+import Image from "next/legacy/image";
 import crumpleImg from "../public/assets/images/Graphics.jpg"
 import {BsArrowLeft} from 'react-icons/bs'
 import YoutubeEmbed from "@/components/YoutubeEmbed";
