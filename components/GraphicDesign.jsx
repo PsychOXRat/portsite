@@ -5,7 +5,7 @@ import Image from "next/image"
 const GraphicDesign = () => {
   return (
     <div id="" className="w-full md:h-1/2 p-2 flex items-center py-16">
-        <a class="anchorgr" id="graphics"/>
+        <a className="anchorgr" id="graphics"/>
         <div className="max-w-[1240px] mx-auto px-2 py-4 ">
             <p className="text-xl tracking-widest uppercase text-[#00a3d9]">Graphic Design</p>
             <h2 className='py-4'>Liveries</h2>

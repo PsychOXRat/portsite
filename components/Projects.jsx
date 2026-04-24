@@ -14,7 +14,7 @@ import graphicsImg from "../public/assets/images/Graphics.jpg"
 const Projects = () => {
   return (
       <div id="" className="w-full">
-          <a class="anchorg" id="projects"/>
+          <a className="anchorg" id="projects"/>
           <div className="max-w-[1240px] mx-auto px-2 py-16">
               <p className="text-xl tracking-widest uppercase text-[#00a3d9]">Games portfolio</p>
               <h2 className='py-4'>Personal Projects</h2>

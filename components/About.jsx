@@ -3,7 +3,7 @@ import Link from "next/link"
 const About = () => {
   return (
     <div  id="" className='w-full md:h-1/2 p-2 flex items-center py-16'>
-        <a class="anchor" id="about"/>
+        <a className="anchor" id="about"/>
         <div className="max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8">
             <div className='col-span-2'>
                 <p className="text-[#00a3d9] uppercase text-xl tracking-widest">About</p>

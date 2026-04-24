@@ -5,7 +5,7 @@ import unrealImg from "../public/assets/images/CrumpleZone.jpg"
 const Skills = () => {
   return (
       <div id="" className="w-full lg:h-1/2 p-2">
-          <a class="anchors" id="skills"/>
+          <a className="anchors" id="skills"/>
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
               <p className="text-xl tracking-widest uppercase text-[#00a3d9]">Skills</p>
               <h2 className="py-4">What I Can Do</h2>
