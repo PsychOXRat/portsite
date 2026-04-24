@@ -1,6 +1,7 @@
 import React from "react"
 import Image from "next/image";
 import crumpleImg from "../public/assets/images/CrumpleZone.jpg"
+//import crumpleDemo from "../public/assets/demos/CrumpleZone.zip"
 import {BsArrowLeft} from 'react-icons/bs'
 import YoutubeEmbed from "@/components/YoutubeEmbed";
 import Link from "next/link";
@@ -29,9 +30,9 @@ const crumplezone = () => {
           <p className="text-xl tracking-widest uppercase text-[#00a3d9]">Project</p>
           <h2 className="py-4">Overview</h2>
           <p>Crumple Zone is a game prototype I created in 2017 to showcase at that year's Norwich Gaming Festival. The premise of the game is to build a contraption that gets the dummy to the finish line as fast as possible. The game takes heavy inspiration from the games Besiege and Crashtastic in both art style and gameplay, becoming a blend of both games. The game was a success at the festival, proving popular throughout every day we were there and always bringing people back for more.</p>
-          <Link href="https://drive.google.com/file/d/1NmuYyky3T0guGBNhK2KLlgE9_cFW650u/view?usp=sharing">
+          <a href="/assets/demos/CrumpleZone.zip" target="_blank" download="crumplezonedemo">
           <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">Demo</button>
-          </Link>
+          </a>
         </div>
 
         <div className=" flex md:col-span-2 shadow-xl shadow-[#00a3d9] rounded-xl p-4 bg-[#bbbbbb] aspect-video w-full">
